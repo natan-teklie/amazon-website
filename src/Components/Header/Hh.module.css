@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header_container{
+    background-color: #1a1a1a;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+   height: 70px;
+    color: white;
+}
+.logo_container{
+    display: flex;
+    max-width: 250px;
+    align-items: center;
+    justify-content: center;
+}
+.logo_container img{
+    width: 80%;
+    padding-top: 5px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.delivery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    padding: 5px;
+    font-weight: bold;
+}
+.delivery p{
+    font-size: 10px;
+}
+
+.search{
+    display: flex;
+    width: 100%;
+    flex: 1;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.search select{
+    border: none;
+    background-color: #d4d4d4;
+}
+.search input{
+    width: 100%;
+    border: 1px solid white;
+    margin-right: -2px;
+}
+
+.search select,
+.search input{
+    outline: 1px solid white;
+    padding: 10px;
+    font-weight: bold;
+}
+.search svg{
+    background-color: #febd6f;
+    padding: 7px;
+    color: #1a1a1a;
+}
+.orders_container{
+    display: flex;
+    max-width: 450px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.orders_container a{
+    text-decoration: none;
+    color: white;
+}
+.orders_container p{
+    font-size: 10px;
+}
+.language{
+    width: 100px;
+    display: flex;
+
+}
+.language select{
+    border: none;
+    background-color: #1a1a1a;
+    color: white;
+}
+.language img{
+    width: 40%;
+}
+.signIn select {
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+}
+.cart{
+    position: relative;
+}
+.cart span{
+    position: absolute;
+    color: orange;
+    font-size: 20px;
+   top: 0;
+   font-weight: bold;
+    left: 16px;
+    background-color: #1a1a1a;
+}
+.logo_container a :hover,
+.delivery:hover,
+
+.orders_container a:hover,
+.cart:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.lower_container{
+   
+    background-color: #232f3e;
+    color: white;
+    
+}
+.lower_container ul{
+    display: flex;
+    gap: 8px;
+    list-style: none;
+}
+.lower_container ul li{
+   
+   
+    padding: 8px;
+    
+}
+.lower_container ul li:first-child{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+
+}

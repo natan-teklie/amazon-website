@@ -1,0 +1,19 @@
+.hero_img{
+    position: relative;
+}
+.hero_img::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(255, 255, 255));
+}
+/* .Carousel .control-dots {
+    display: none;
+} */
+
+/* Optionally, hide the status indicator that shows the current slide number */
+/* .Carousel .Carousel-status {
+    display: none;
+} */
