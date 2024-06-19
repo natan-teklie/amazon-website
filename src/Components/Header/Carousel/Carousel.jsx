@@ -16,8 +16,8 @@ showStatus ={false}
 showArrows = {true}
       >
 {
-    imagesToLoop.map((imageLiks)=>{
-        return <img src={imageLiks}/>
+    imagesToLoop.map((imageLinks)=>{
+        return <img src={imageLinks}/>
     })
 }
       </Carousel>
